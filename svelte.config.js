@@ -13,8 +13,13 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html'
-		})
+			fallback: 'index.html',
+			precompress: false,
+			strict: true
+		}),
+		paths: {
+			base: ''
+		}
 	},
 	onwarn: (warning, handler) => {
 		const { code, _ } = warning;

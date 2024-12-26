@@ -1,9 +1,6 @@
 [project]
-name = "open-webui"
-description = "Open WebUI"
-authors = [
-    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
-]
+name = "unichat"
+description = "Unichat is an opinionated and simplified Open WebUI"
 license = { file = "LICENSE" }
 dependencies = [
     "fastapi==0.111.0",

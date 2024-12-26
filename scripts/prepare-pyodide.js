@@ -3,13 +3,7 @@ const packages = [
 	'packaging',
 	'requests',
 	'beautifulsoup4',
-	'numpy',
-	'pandas',
-	'matplotlib',
-	'scikit-learn',
-	'scipy',
-	'regex',
-	'seaborn'
+	'regex'
 ];
 
 import { loadPyodide } from 'pyodide';
