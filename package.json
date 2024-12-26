@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "npm run pyodide:fetch && vite dev --host",
 		"build": "npm run pyodide:fetch && vite build",
-		"build:dev": "npm install pnpm & pnpm install & pnpm run pyodide:fetch && vite build",
+		"build:dev": "pnpm run pyodide:fetch && vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
