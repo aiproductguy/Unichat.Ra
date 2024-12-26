@@ -4,3 +4,8 @@ compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
 pages_build_output_dir = "./build"
 send_metrics = false
+
+[build.environment]
+NODE_VERSION = "18.17.1"
+NPM_VERSION = "9.6.7"
+PNPM_VERSION = "9.15.1" 
