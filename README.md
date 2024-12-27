@@ -49,7 +49,7 @@ Open WebUI is an [extensible](https://github.com/open-webui/pipelines), feature-
 
 - 🌐🌍 **Multilingual Support**: Experience Open WebUI in your preferred language with our internationalization (i18n) support. Join us in expanding our supported languages! We're actively seeking contributors!
 
-- 📚 **Pipelines, Open WebUI Plugin Support**: Seamlessly integrate custom logic and Python libraries into Open WebUI using [Pipelines Plugin Framework](https://github.com/open-webui/pipelines). Launch your Pipelines instance, set the OpenAI URL to the Pipelines URL, and explore endless possibilities. [Examples](https://github.com/open-webui/pipelines/tree/main/examples) include **Function Calling**, User **Rate Limiting** to control access, **Usage Monitoring** with tools like Langfuse, **Live Translation with LibreTranslate** for multilingual support, **Toxic Message Filtering** and much more.
+- �� **Pipelines, Open WebUI Plugin Support**: Seamlessly integrate custom logic and Python libraries into Open WebUI using [Pipelines Plugin Framework](https://github.com/open-webui/pipelines). Launch your Pipelines instance, set the OpenAI URL to the Pipelines URL, and explore endless possibilities. [Examples](https://github.com/open-webui/pipelines/tree/main/examples) include **Function Calling**, User **Rate Limiting** to control access, **Usage Monitoring** with tools like Langfuse, **Live Translation with LibreTranslate** for multilingual support, **Toxic Message Filtering** and much more.
 
 - 🌟 **Continuous Updates**: We are committed to improving Open WebUI with regular updates, fixes, and new features.
 
@@ -89,7 +89,7 @@ To build Open WebUI from source:
    ```bash
    # Install dependencies and build
    pnpm install
-   pnpm add -D tailwindcss@latest vite@^5.0.0 @sveltejs/vite-plugin-svelte@latest
+   pnpm add -D tailwindcss@latest vite@^5.0.0 @sveltejs/vite-plugin-svelte@latest paneforge@0.0.6
    pnpm run pyodide:fetch
    vite build
    ```
@@ -100,7 +100,7 @@ To build Open WebUI from source:
    ```
 
 > [!NOTE]
-> Make sure to use Vite 5.x as newer versions may have compatibility issues with some dependencies.
+> Make sure to use Vite 5.x and the exact version of paneforge (0.0.6) to avoid compatibility issues.
 
 ### Quick Start with Docker 🐳
 
